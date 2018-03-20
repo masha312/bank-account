@@ -1,0 +1,19 @@
+{
+  "name": "account_lab",
+  "version": "1.0.0",
+  "description": "TypeScript with Webpack",
+  "main": "Account.class.js",
+  "dependencies": {
+    "@types/jquery": "3.2.16",
+    "webpack": "3.10.0",
+    "jquery": "3.2.1",
+    "typescript": "2.6.2",
+    "ts-loader": "3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Sheehan (asheehan@bu.edu)",
+  "license": "MIT"
+}

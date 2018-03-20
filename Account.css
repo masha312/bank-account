@@ -1,0 +1,128 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
+body {
+    /* background: #e2e2e5; */
+    background: linear-gradient(to top, #5193e9e0 0%, #0a3a50de 100%);
+    background-size: cover;
+    
+    min-height: 100vh;
+    font-family: 'Inter UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 90%;
+    width: 97%;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+h1 {
+    font-family: 'Inter UI', sans-serif;
+    font-size: 65px;
+    /* padding-bottom: -30px; */
+    color: #062230;
+    top: 200px;
+    opacity: 0;
+    position: relative;
+}
+
+h2 {
+    position: relative;
+    padding-bottom: -30px;
+    margin-top: -40px;
+    font-size: 30px;
+    color: #062230dc;
+    padding-left: 5px;
+    opacity: 0;
+    letter-spacing: 1px;
+}
+
+h3 {
+    position: relative;
+    font-size: 30px;
+    color: #062230dc;
+    padding-left: 5px;
+    letter-spacing: 1px;
+}
+
+#container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: calc(100% - 200px);
+    position: relative;
+    align-content: center;
+    width: calc(100% - 100px);
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    box-shadow: 0 8px 90px -20px black;
+    text-align: right;
+}
+
+button {
+    height: 45px;
+    width: 220px;
+    background: linear-gradient(to left, #091a31e0 0%, #0a3a50de 100%);
+    font-family: 'Inter UI', sans-serif;
+    color: white;
+    border: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    
+}
+
+button:focus {
+    outline: none;
+}
+button:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.24), 0 15px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+#block1 {
+    opacity: 0;
+    padding-top: 10px;
+    position: relative;
+}
+
+
+#block2 {
+    display: none;
+}
+
+#block3 {
+    display: none;
+}
+
+
+input {
+    height: 40px;
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.534);
+    font-size: 25px;
+    font-family: 'Inter UI', sans-serif;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+input:focus {
+    outline: none;
+}
+

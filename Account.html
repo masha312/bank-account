@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Account</title>
+    <link rel="stylesheet" type="text/css" href="Account.css">
+    <script src="Account.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+</head>
+<body>
+    <div class="page">
+        <div id="container">
+            <div id="welcome"><h1>Welcome.</h1>
+            <h2>Let's create an account:</h2></div>
+            <div id="block1"><input id="openAccount" type="text" placeholder="enter your balance here" autofocus>
+            <button id="depButton" onclick="createNewAccount()">deposit</button>
+            <h3 id="confirm"></h3></div>
+
+            <div id="block2"><input id="withdrawAmount" type="text" placeholder="enter withdrawal amount">
+            <button onclick="withdrawFromAccount()">withdraw</button>
+            
+            <div id="block3"><button onclick="showCurrBalance()">show balance</button>
+        </div>
+    </div>
+</body>
+</html>
